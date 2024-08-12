@@ -1,0 +1,17 @@
+<!-- bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/username"
+        android:title="Enroll" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/bookings"
+        android:title="Bookings" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile_ic"
+        android:title="Profile" />
+</menu>

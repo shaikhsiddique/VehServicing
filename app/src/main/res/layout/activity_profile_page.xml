@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    tools:context=".screens.user.ProfilePage">
+    <Button
+        android:id="@+id/logoutButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        style="@style/LogoutButton"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@drawable/bottom_nav_menu"
+        android:id="@+id/nav"
+        android:background="@color/black"
+        />
+</RelativeLayout>

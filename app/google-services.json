@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017792931014",
+    "project_id": "vehservicing",
+    "storage_bucket": "vehservicing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017792931014:android:c149f06ebfcb167f4ee3c7",
+        "android_client_info": {
+          "package_name": "com.appkida.vehservicing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwu3-9JmRzPpWrCHNKp1Mgbdor5oIwZYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
